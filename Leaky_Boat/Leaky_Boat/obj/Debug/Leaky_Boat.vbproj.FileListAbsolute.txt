@@ -1,0 +1,11 @@
+c:\users\lorenzo\documents\visual studio 2013\Projects\Leaky_Boat\Leaky_Boat\bin\Debug\Leaky_Boat.exe.config
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\bin\Debug\Leaky_Boat.exe
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\bin\Debug\Leaky_Boat.pdb
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\bin\Debug\Leaky_Boat.xml
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\obj\Debug\Leaky_Boat.frmMain.resources
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\obj\Debug\Leaky_Boat.Resources.resources
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\obj\Debug\Leaky_Boat.vbproj.GenerateResource.Cache
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\obj\Debug\Leaky_Boat.exe
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\obj\Debug\Leaky_Boat.xml
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\obj\Debug\Leaky_Boat.pdb
+C:\Users\Lorenzo\Documents\Visual Studio 2013\Projects\Leaky_Boat\Leaky_Boat\obj\Debug\Leaky_Boat.frmUpgrade.resources
