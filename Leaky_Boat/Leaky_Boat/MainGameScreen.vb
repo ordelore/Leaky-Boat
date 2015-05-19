@@ -41,12 +41,12 @@
             blnFish = False
             intFish += 1
             UpdateBar(lblFish, intFish, strFish)
-            picFishingRod.BackColor = Color.Transparent
+            picExclamation.Visible = False
         Else
             Dim intRandom As Integer = rndRand.Next(0, intFishDesirability + 1)
             If intRandom = 3 Then
                 blnFish = True
-                picFishingRod.BackColor = Color.LightYellow
+                picExclamation.Visible = True
             End If
         End If
     End Sub
@@ -62,7 +62,7 @@
         blnFish = False
         tmrEndDay.Stop()
         tmrFill.Stop()
-        MsgBox("To move your character, press the arrow keys." & vbNewLine & "To empty your bucket, press Enter while standing next to it." & vbNewLine & "To cast your fishing rod, press Enter while standing next to it. If it catches a fish, it will change color. Press Enter again to get the fish." & vbNewLine & "If the boat's water level reaches 20, it's game over!" & vbNewLine & "Also, there is a limit to how much fish your boat can carry, so upgrade to have more fish capacity!" & vbNewLine & "The fishing pole is the one on the left and the bucket is on the right.")
+        MsgBox("To move your character, press the arrow keys." & vbNewLine & "To empty your bucket, press Enter while standing next to it." & vbNewLine & "To cast your fishing rod, press Enter while standing next to it. If it catches a fish, an exclamation will show." & vbNewLine & "Press Enter again to get the fish." & vbNewLine & "If the boat's water level reaches 20, it's game over!" & vbNewLine & "Also, there is a limit to how much fish your boat can carry, so upgrade to have more fish capacity!" & vbNewLine & "The fishing pole is the one on the left and the bucket is on the right.")
         tmrFill.Start()
         tmrEndDay.Start()
     End Sub

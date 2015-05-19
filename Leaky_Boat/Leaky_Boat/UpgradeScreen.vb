@@ -60,4 +60,8 @@
         frmMain.tmrFill.Start()
         Me.Hide()
     End Sub
+
+    Private Sub frmUpgrade_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
+        frmMain.Close()
+    End Sub
 End Class

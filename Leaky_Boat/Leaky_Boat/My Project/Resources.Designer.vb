@@ -73,9 +73,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property fishing_rod() As System.Drawing.Bitmap
+        Friend ReadOnly Property exclamation() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("fishing_rod", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("exclamation", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -83,9 +83,9 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property oie_transparent() As System.Drawing.Bitmap
+        Friend ReadOnly Property fishing_rod() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("oie_transparent", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("fishing_rod", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

@@ -23,14 +23,17 @@ Partial Class frmMain
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmMain))
         Me.tmrFill = New System.Windows.Forms.Timer(Me.components)
         Me.tmrEndDay = New System.Windows.Forms.Timer(Me.components)
         Me.lblWaterLevel = New System.Windows.Forms.Label()
         Me.lblFish = New System.Windows.Forms.Label()
+        Me.picExclamation = New System.Windows.Forms.PictureBox()
         Me.picBucket = New System.Windows.Forms.PictureBox()
         Me.picFishingRod = New System.Windows.Forms.PictureBox()
         Me.picGuy = New System.Windows.Forms.PictureBox()
         Me.picBoat = New System.Windows.Forms.PictureBox()
+        CType(Me.picExclamation, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picBucket, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picFishingRod, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.picGuy, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -65,11 +68,22 @@ Partial Class frmMain
         Me.lblFish.TabIndex = 5
         Me.lblFish.Text = "Fish: 0"
         '
+        'picExclamation
+        '
+        Me.picExclamation.Image = Global.Leaky_Boat.My.Resources.Resources.exclamation
+        Me.picExclamation.Location = New System.Drawing.Point(37, 51)
+        Me.picExclamation.Name = "picExclamation"
+        Me.picExclamation.Size = New System.Drawing.Size(25, 25)
+        Me.picExclamation.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picExclamation.TabIndex = 6
+        Me.picExclamation.TabStop = False
+        Me.picExclamation.Visible = False
+        '
         'picBucket
         '
         Me.picBucket.BackColor = System.Drawing.Color.Transparent
         Me.picBucket.Image = Global.Leaky_Boat.My.Resources.Resources.bucket
-        Me.picBucket.Location = New System.Drawing.Point(204, 87)
+        Me.picBucket.Location = New System.Drawing.Point(214, 82)
         Me.picBucket.Name = "picBucket"
         Me.picBucket.Size = New System.Drawing.Size(44, 50)
         Me.picBucket.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -79,11 +93,11 @@ Partial Class frmMain
         'picFishingRod
         '
         Me.picFishingRod.BackColor = System.Drawing.Color.Transparent
-        Me.picFishingRod.Image = Global.Leaky_Boat.My.Resources.Resources.oie_transparent
-        Me.picFishingRod.Location = New System.Drawing.Point(0, 56)
+        Me.picFishingRod.Image = CType(resources.GetObject("picFishingRod.Image"), System.Drawing.Image)
+        Me.picFishingRod.Location = New System.Drawing.Point(26, 83)
         Me.picFishingRod.Name = "picFishingRod"
-        Me.picFishingRod.Size = New System.Drawing.Size(88, 82)
-        Me.picFishingRod.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.picFishingRod.Size = New System.Drawing.Size(40, 50)
+        Me.picFishingRod.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.picFishingRod.TabIndex = 2
         Me.picFishingRod.TabStop = False
         '
@@ -91,7 +105,7 @@ Partial Class frmMain
         '
         Me.picGuy.BackColor = System.Drawing.Color.Transparent
         Me.picGuy.Image = Global.Leaky_Boat.My.Resources.Resources.PIXILART_LOCAL__3_
-        Me.picGuy.Location = New System.Drawing.Point(80, 56)
+        Me.picGuy.Location = New System.Drawing.Point(90, 51)
         Me.picGuy.Name = "picGuy"
         Me.picGuy.Size = New System.Drawing.Size(86, 81)
         Me.picGuy.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -115,6 +129,7 @@ Partial Class frmMain
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Control
         Me.ClientSize = New System.Drawing.Size(282, 255)
+        Me.Controls.Add(Me.picExclamation)
         Me.Controls.Add(Me.lblFish)
         Me.Controls.Add(Me.lblWaterLevel)
         Me.Controls.Add(Me.picBucket)
@@ -123,6 +138,7 @@ Partial Class frmMain
         Me.Controls.Add(Me.picBoat)
         Me.Name = "frmMain"
         Me.Text = "Leaky Boat"
+        CType(Me.picExclamation, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picBucket, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picFishingRod, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picGuy, System.ComponentModel.ISupportInitialize).EndInit()
@@ -139,5 +155,6 @@ Partial Class frmMain
     Friend WithEvents tmrEndDay As System.Windows.Forms.Timer
     Friend WithEvents lblWaterLevel As System.Windows.Forms.Label
     Friend WithEvents lblFish As System.Windows.Forms.Label
+    Friend WithEvents picExclamation As System.Windows.Forms.PictureBox
 
 End Class

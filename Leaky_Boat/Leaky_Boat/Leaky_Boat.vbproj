@@ -141,10 +141,13 @@
     <None Include="Resources\bucket.gif" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\oie_transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\fishing_rod.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\oie_transparent.png" />
+    <None Include="Resources\exclamation.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

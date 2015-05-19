@@ -19,11 +19,11 @@ Leaky_Boat
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Leaky_Boat.My.Resources.Resources.fishing_rod">
+</member><member name="P:Leaky_Boat.My.Resources.Resources.exclamation">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Leaky_Boat.My.Resources.Resources.oie_transparent">
+</member><member name="P:Leaky_Boat.My.Resources.Resources.fishing_rod">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

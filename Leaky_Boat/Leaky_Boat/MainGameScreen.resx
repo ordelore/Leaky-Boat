@@ -123,4 +123,22 @@
   <metadata name="tmrEndDay.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>133, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="picFishingRod.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAAEnEAABJxAfPceo4AAAKPSURBVHhe7ZDLrdtAEASZjUNyLr44Lp8UikKR5/D00FMu
+        SCD4EUlvAQUCxPZOz04PcLvdmtM0vZT8+fXzpUdjPMDX95vxAP/7A3DB+/3e5EI8T3mefprxAF/fb7jA
+        eICrPwALU2JLpHZHapl0b6qTF31KrHRqd6SWSfemOnnRp8RKp3ZHapl0b6qTF31KrHRqd6SWSfemOvWC
+        c7ElUt5PLZNuTXXoheZipVPeTy2Tbk116IXmYqVT3k8tk25NdeiF5mKlU95PLZNuTXXohZZiS6ScRy2T
+        rk3N7AWWYqVTzqOWSdemZvYCS7HSKedRy6RrUzN7gaVY6ZTzqGXStamZvcDa2BIp51PLpEupGX3g2ljp
+        lPOpZdKl1Iw+cG2sdMr51DLpUmpGH7g2VjrlfGqZdCk1ow/cGlsiZR9qmXQudWcfsDVWOmUfapl0LnVn
+        H7A1VjplH2qZdC51Zx+wNVY6ZR9qmXQudWcfsDe2RMp+1DLpO+qOfuHeWOmU/ahl0nfUHf3CvbHSKftR
+        y6TvqDv6hXtjpVP2o5ZJ31F39As/jS2Rsi+1TEoq0y/4NFY6ZV9qmZRUpl/waax0yr7UMimpTL/g01jp
+        lH2pZVJSmX7B0bAlUvanlknrTA8cDSudsj+1TFpneuBoWOmU/all0jrTA0fDSqfsTy2T1pkeODq2RMp9
+        qJzvB44OF6Dch8r5fuDocAHKfaic7weODheg3IfK+X7gbHAhyv3E/uNs2NIp9xP7j7NhS6fcT+w/zoYt
+        nXI/sf84O3yAx+8fLx0PMB5gPMC1HuAfZOl0PMB4gPEA134A7if2H1eD+4n9x9XgfmL/cTW4n9h/XA3u
+        J/YfV4P7if3H1eB+Yv9xNbhfd3r8Bc85Pi6BTX0rAAAAAElFTkSuQmCC
+</value>
+  </data>
 </root>
